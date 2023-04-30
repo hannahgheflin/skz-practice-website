@@ -1,0 +1,20 @@
+pancake dropdown nav
+https://www.adrienneraquel.com/ <- cool example
+header:
+    home button
+    dropdown
+
+cards on main page:
+    music
+    members
+    history
+    achievements
+    performances
+    interviews
+    reality content
+    fanmade content
+    socials
+
+footer:
+    about
+    follow

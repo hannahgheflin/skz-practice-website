@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+/*header + nav*/
+header {
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav #myLinks {
+    display: none;
+    padding-top: 30px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a.icon {
+    display: block;
+    position: absolute;
+    font-size: xx-large;
+    right: 0;
+    top: 0;
+}
+
+nav ul {
+    list-style:none;
+}
+
+nav ul li a {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+nav ul li a:hover {
+    color:hotpink;
+    text-decoration: underline;
+}
+
+.logo {
+    color: black;
+    font-size: 40px;
+    text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo:hover {
+    color: white;
+}
+
+/* main */
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 80px;
+}
+
+.row button {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.row button .card {
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: x-large;
+    text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row button .card img {
+    border: 5px solid black;
+}
+
+.row button .card .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row button:hover .card{
+    color: transparent;
+    text-shadow: none;
+}
+
+.row button:hover img {
+    border: 5px solid hotpink;
+}
+
+/* footer */
+footer h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: small;
+}
+footer .footer-content {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+footer button {
+    background-color:black;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+footer button:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
